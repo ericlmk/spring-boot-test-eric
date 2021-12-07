@@ -15,14 +15,29 @@ You may ask questions both during the initial discussion and at any point during
 1. Complete the two entities in the domain package so that querying the Purchase Order object will also return all of the line items.
 
 
-2. Update the repository so that as can return purchase orders which have been created after a given date
+2. Complete and update the repository so that as can return purchase orders which have been created after a given date
 
 
 3. Create HTTP endpoints for all of the relevant methods 
 
 
 4. Add security to the application so that only validated users may access the end points.  There will be two users.  Peter and Paul.  Peter is an end user, has the role of USER and may read all purchase orders, may create new purchase orders but may only update purchase orders that he owns.  Paul is an admin user, has the role of ADMIN and as well as all of Peter's abilities, may update and delete any purhcase order on the system.  <br/><br/>Please define these users in memory.
+
  
- 5. Create a service which will return all purchase orders which contains given product items.
+5. Create a service which will return all purchase orders which contains given product items.
 
 
+6. Rationalise the client entity to avoid duplication
+
+
+7. Prevent unauthorised clients from accessing your service at all
+
+
+8. Encrypt the sensitive information held in the client entity
+
+
+9. Comment and test your code fully
+
+## Last words..
+
+Finally, feel free to show off, be excellent and show me what you can do.  If you want to add something that isn't covered by the requirements, please add it and explain why you've added it.  If you cannot fully answer any of the requirements, but can explain how you would start investigating a solution, please add those details.

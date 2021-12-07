@@ -12,7 +12,7 @@ You may ask questions both during the initial discussion and at any point during
 
 ## Requirements
 
-1. Complete the two entities in the domain package so that querying the Purchase Order object will also return all of the line items.
+1. Complete the entities in the domain package so that querying the PurchaseOrder object will also return all of the ProductItem line items.
 
 
 2. Complete and update the repository so that as can return purchase orders which have been created after a given date

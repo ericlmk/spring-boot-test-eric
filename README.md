@@ -38,6 +38,14 @@ You may ask questions both during the initial discussion and at any point during
 
 9. Comment and test your code fully
 
-## Last words..
+
+## How to complete the test
+
+1. Clone or fork the repository and create a new branch, you can call this branch whatever you like.
+
+2. When you are ready, push the branch back up to github and create a pull request for my review
+
+
+## Last words.
 
 Finally, feel free to show off, be excellent and show me what you can do.  If you want to add something that isn't covered by the requirements, please add it and explain why you've added it.  If you cannot fully answer any of the requirements, but can explain how you would start investigating a solution, please add those details.

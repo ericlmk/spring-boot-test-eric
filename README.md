@@ -41,9 +41,10 @@ You may ask questions both during the initial discussion and at any point during
 
 ## How to complete the test
 
-1. Clone or fork the repository and create a new branch, you can call this branch whatever you like.
+1. Fork the repository into a new repository and do the work however you see fit
 
-2. When you are ready, push the branch back up to github and create a pull request for my review
+
+2. When you are ready, push the work back up to github and make me (tomonline) a collaborator so I can review the code
 
 
 ## Last words.

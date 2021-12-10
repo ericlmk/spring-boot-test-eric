@@ -12,31 +12,38 @@ You may ask questions both during the initial discussion and at any point during
 
 ## Requirements
 
+Broadly speaking, the requirements follow on from each other in logic and complexity.  Please complete them as you can.  Commented answers and pseudo-code may be considered if you are unable to provide a code-based answer.
+
+
 1. Complete the entities in the domain package so that querying the PurchaseOrder object will also return all of the ProductItem line items.
 
 
-2. Complete and update the repository so that as can return purchase orders which have been created after a given date
+2. Complete and update the repository so that as can return purchase orders which have been created after a given date.
 
 
-3. Create HTTP endpoints for all of the relevant methods 
+3. Create HTTP endpoints for all of the relevant methods.  Endpoints may accept XML or JSON but may only produce JSON output.
 
 
-4. Add security to the application so that only validated users may access the end points.  There will be two users.  Peter and Paul.  Peter is an end user, has the role of USER and may read all purchase orders, may create new purchase orders but may only update purchase orders that he owns.  Paul is an admin user, has the role of ADMIN and as well as all of Peter's abilities, may update and delete any purhcase order on the system.  <br/><br/>Please define these users in memory.
+4. Add security to the application so that only validated users may access the end points.  
+    * There will be two users.  Peter and Paul.  
+    * Peter is an end user, has the role of USER and may read all purchase orders, may create new purchase orders but may only update purchase orders that he owns.  
+    * Paul is an admin user, has the role of ADMIN and as well as all of Peter's abilities, may update and delete any purchase order on the system
+    * Please define these users in memory.
 
  
 5. Create a service which will return all purchase orders which contains given product items.
 
 
-6. Rationalise the client entity to avoid duplication
+6. Rationalise the client entity to avoid duplication.
 
 
-7. Prevent unauthorised clients from accessing your service at all
+7. Prevent unauthorised clients from accessing your service at all.
 
 
-8. Encrypt the sensitive information held in the client entity
+8. Encrypt the sensitive information held in the client entity.
 
 
-9. Comment and test your code fully
+For all of your code, please comment and test fully.
 
 
 ## How to complete the test

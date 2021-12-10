@@ -46,7 +46,10 @@ Broadly speaking, the requirements follow on from each other in logic and comple
 9. Build the compiled JAR into a Docker container.  You may use any approach to do this.
 
 
-10. Finally, tidy up the POM and make it more readable.
+11. Split the project into two separate modules, one with the purchase order service, a second with an openFeign client which can be referenced as a dependency in any other services which might need to access the purchase order service.
+
+
+11. Finally, tidy up the POM and make it more readable.
 
 
 For all of your code, please comment and test fully.

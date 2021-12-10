@@ -41,10 +41,10 @@ You may ask questions both during the initial discussion and at any point during
 
 ## How to complete the test
 
-1. Fork the repository into a new repository and do the work however you see fit
+1. You will be given a personalised copy of the test repository 
 
 
-2. When you are ready, push the work back up to github and make me (tomonline) a collaborator so I can review the code
+2. Complete your work and push your changes back up to GitHub
 
 
 ## Last words.

@@ -19,7 +19,7 @@ Broadly speaking, the requirements follow on from each other in logic and comple
 1. Complete the entities in the domain package so that querying the PurchaseOrder object will also return all of the ProductItem line items.  Hint: PurchaseOrder has a one to many relationship to ProductItem.  ProductItem has a one to none, one or many relationship to PurchaseOrder.
 
 
-2. Complete and update the repository so that a query can return purchase orders which have been created after a given date.
+2. Complete and update the repository so that a query can return purchase orders which have been created for a given date.
 
 
 3. Create HTTP endpoints to allow a client to interact with the service.  Endpoints may accept XML or JSON but may only produce JSON output. Your code will need to perform the following actions:

@@ -2,11 +2,13 @@ package com.test.purchaseorder.domain;
 
 import java.sql.Timestamp;
 
+import javax.persistence.Entity;
 import javax.persistence.Id;
 
 import lombok.Data;
 
 @Data
+@Entity
 public class PurchaseOrder {
 
 	@Id
@@ -15,5 +17,9 @@ public class PurchaseOrder {
 	private Timestamp poCreateDate;
 	private Timestamp poUpdateDate;
 	
-	// other meta information
+	
+	// Reference to the client - please complete
+	
+	
+	// Reference to line items - please complete
 }

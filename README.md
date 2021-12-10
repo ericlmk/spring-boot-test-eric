@@ -15,13 +15,13 @@ You may ask questions both during the initial discussion and at any point during
 Broadly speaking, the requirements follow on from each other in logic and complexity.  Please complete them as you can.  Commented answers and pseudo-code may be considered if you are unable to provide a code-based answer.
 
 
-1. Complete the entities in the domain package so that querying the PurchaseOrder object will also return all of the ProductItem line items.
+1. Complete the entities in the domain package so that querying the PurchaseOrder object will also return all of the ProductItem line items.  Hint: PurchaseOrder has a one to many relationship to ProductItem.  ProductItem has a one to none, one or many relationship to PurchaseOrder.
 
 
 2. Complete and update the repository so that as can return purchase orders which have been created after a given date.
 
 
-3. Create HTTP endpoints for all of the relevant methods.  Endpoints may accept XML or JSON but may only produce JSON output.
+3. Create HTTP endpoints for all of the relevant methods.  Endpoints may accept XML or JSON but may only produce JSON output.  
 
 
 4. Add security to the application so that only validated users may access the end points.  
@@ -31,7 +31,7 @@ Broadly speaking, the requirements follow on from each other in logic and comple
     * Please define these users in memory.
 
  
-5. Create a service which will return all purchase orders which contains given product items.
+5. Create a service which will return all purchase orders which contains given product items.  Create an endpoint which will return this data.
 
 
 6. Rationalise the client entity to avoid duplication.
@@ -41,6 +41,9 @@ Broadly speaking, the requirements follow on from each other in logic and comple
 
 
 8. Encrypt the sensitive information held in the client entity.
+
+
+9. Finally, tidy up the POM and make it more readable.
 
 
 For all of your code, please comment and test fully.

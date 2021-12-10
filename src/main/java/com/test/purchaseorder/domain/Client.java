@@ -12,6 +12,10 @@ public class Client {
 	@Id
 	private Integer clientId;
 	private String clientName;
-	private String clientAddress;  // you may assume that all address details are held in this string
+	private String clientAddress1;  
+	private String clientAddress2;
+	private String clientAddressCity;
+	private String clientAddressPostCode;
+	private String clientCountry;
 	
 }

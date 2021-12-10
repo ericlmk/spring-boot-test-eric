@@ -43,7 +43,10 @@ Broadly speaking, the requirements follow on from each other in logic and comple
 8. Encrypt the sensitive information held in the client entity.
 
 
-9. Finally, tidy up the POM and make it more readable.
+9. Build the compiled JAR into a Docker container.  You may use any approach to do this.
+
+
+10. Finally, tidy up the POM and make it more readable.
 
 
 For all of your code, please comment and test fully.

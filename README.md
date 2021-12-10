@@ -23,18 +23,18 @@ Broadly speaking, the requirements follow on from each other in logic and comple
 
 
 3. Create HTTP endpoints to allow a client to interact with the service.  Endpoints may accept XML or JSON but may only produce JSON output. Your code will need to perform the following actions:
-    * Return a list of all purchase orders in the system
-    * Return a single purchase order for a given id
-    * Return a list of purchase orders created for a given date (default to today if none is given)
-    * Create a new purchase order
-    * Add and remove product line items to/from the purchase order
-    * Delete a purchase order (Note: this will be handled by setting the status to 'Deleted')
+    * Return a list of all purchase orders in the system.
+    * Return a single purchase order for a given id.
+    * Return a list of purchase orders created for a given date (default to today if none is given).
+    * Create a new purchase order.
+    * Add and remove product line items to/from the purchase order.
+    * Delete a purchase order (Note: this will be handled by setting the status to 'Deleted').
 
 
 4. Add security to the application so that only validated users may access the end points.  
     * There will be two users.  Peter and Paul.  
     * Peter is an end user, has the role of USER and may read all purchase orders, may create new purchase orders but may only update purchase orders that he owns.  
-    * Paul is an admin user, has the role of ADMIN and as well as all of Peter's abilities, may update and delete any purchase order on the system
+    * Paul is an admin user, has the role of ADMIN and as well as all of Peter's abilities, may update and delete any purchase order on the system.
     * Please define these users in memory.
 
  
